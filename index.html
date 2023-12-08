@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivinhe o Número!</title>
+</head>
+<body>
+    <header>
+        <h1>Adivinhe o Número!</h1>
+        <p class="between">(Entre 1 e 20)</p>
+        <button class="btn again">Jogue Novamente!</button>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <p class="try">Chute um número</p>
+            <input type="number" class="guess">
+            <button class="btn check">Verificar</button>
+            <p style="margin-top: 5px;">(Ou pressione Enter)</p>
+        </section>
+        <section class="right">
+            <p class="message">Comece...</p>
+            <p class="label-score">💯 Pontuação: <span class="score">20</span></p>
+            <p class="label-highscore">🥇 Pontuação Máxima: <span class="highscore">0</span></p>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
