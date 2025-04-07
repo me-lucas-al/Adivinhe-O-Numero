@@ -5,10 +5,10 @@ Um jogo simples em JavaScript onde o usuário precisa adivinhar um número secre
 ## 🖼️ Preview
 
 ### Página Inicial
-![Página do Jogo](./images/guess-the-number-page)
+![Página do Jogo](./images/guess-the-number-page.JPG)
 
 ### Número Correto
-![Número Correto](./images/guess-the-number-right)
+![Número Correto](./images/guess-the-number-right.JPG)
 
 ## ✨ Tecnologias Utilizadas
 
